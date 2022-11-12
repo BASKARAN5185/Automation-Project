@@ -40,6 +40,7 @@ public class AirAsia {
 	   driver.findElement(By.xpath("//div[contains(text(),'17')]")).click();
 	   driver.findElement(By.xpath("//div[contains(text(),'25')]")).click();
 	   driver.findElement(By.xpath("//button[@class='btn-flight']")).click();
+ 
    }
    
    @Test(priority=2)
