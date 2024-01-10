@@ -26,7 +26,7 @@ public class Login {
 	@Test(priority=1)
 	public void serch() throws IOException {
 		
-	   System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");  
+	   System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");  
 	   driver=new ChromeDriver();
 	   driver.get("https://www.Google.com");
 	   driver.manage().window().maximize();
