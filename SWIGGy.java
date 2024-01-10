@@ -21,11 +21,11 @@ public class SWIGGy {
     WebDriver driver; 
     @BeforeTest
 	public void opensiwwgy() {
-		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_107\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_117\\chromedriver.exe");
 		driver=new ChromeDriver();
 		 driver.manage().window().maximize();
          driver.get("https://www.swiggy.com/");
-         driver.manage().timeouts().pageLoadTimeout( Duration.ofSeconds(80));
+         driver.manage().timeouts().pageLoadTimeout( Duration.ofSeconds(80))
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
