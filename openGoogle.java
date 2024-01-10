@@ -13,7 +13,7 @@ public class openGoogle {
     @Parameters({"browser"})
 	void browser(String browser) {
     	if(browser.equalsIgnoreCase("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");
 		driver=new ChromeDriver();
 	    }
     else if(browser.equalsIgnoreCase("firebox")) {
