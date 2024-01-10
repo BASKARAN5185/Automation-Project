@@ -16,10 +16,10 @@ import org.openqa.selenium.support.ui.Select;
 public class OLA {
 
 	public static void main(String[] args) throws IOException {
-		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.get("https://www.olacabs.com/");
 		driver.findElement(By.className("middle h-full text value")).click();
