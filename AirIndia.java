@@ -26,7 +26,7 @@ public class AirIndia {
     	System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
     	driver=new ChromeDriver();
     	driver.manage().window().maximize();
-    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	driver.get("https://www.airindia.in/");
     }	
     
