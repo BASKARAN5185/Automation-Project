@@ -16,7 +16,7 @@ public class ICICIBANK {
     WebDriver driver; 
 	@BeforeClass
     public void openicicibank() {
-			System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_107\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_115\\chromedriver.exe");
 			driver=new ChromeDriver();
 			 driver.manage().window().maximize();
 	         driver.manage().timeouts().pageLoadTimeout( Duration.ofSeconds(80));
