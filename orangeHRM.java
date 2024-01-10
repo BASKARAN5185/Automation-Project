@@ -14,7 +14,7 @@ public class orangeHRM {
 	WebDriver driver;
 	@BeforeClass
 	void setup() {
-		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");  
+		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");  
 		   driver=new ChromeDriver();
 		driver.get("https://www.orangehrm.com/");
 		driver.manage().window().maximize();
