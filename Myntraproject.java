@@ -31,7 +31,7 @@ public class Myntraproject {
 
 	public static void main(String[] args) {
 		
-		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_107\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_115\\chromedriver.exe");
          WebDriver driver=new ChromeDriver();
          driver.manage().window().maximize();
          driver.get("https://www.myntra.com");
