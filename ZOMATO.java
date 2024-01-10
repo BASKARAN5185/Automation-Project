@@ -14,7 +14,7 @@ import org.openqa.selenium.io.FileHandler;
 public class ZOMATO {
 
 	public static void main(String[] args) throws IOException {
-		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");
 		 WebDriver driver=new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
