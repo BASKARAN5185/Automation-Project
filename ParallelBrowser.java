@@ -9,7 +9,7 @@ public class ParallelBrowser {
          WebDriver driver;
   @Test(priority=1)
   void openinsta() {
-	  System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");
       driver=new ChromeDriver();
       driver.get("https://www.instagram.com");
       String Title= driver.getTitle();
@@ -18,7 +18,7 @@ public class ParallelBrowser {
   
   @Test(priority=2)
   void openfacebook() {
-	  System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_106\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_116\\chromedriver.exe");
       driver=new ChromeDriver();
       driver.get("https://www.facebook.com");
       String Title= driver.getTitle();
