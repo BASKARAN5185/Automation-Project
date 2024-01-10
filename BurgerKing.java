@@ -20,7 +20,7 @@ public class BurgerKing {
 	WebDriver driver;
 	@BeforeClass
 	public void OpenBurgerKing() {
-		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_107\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\selinum\\chromedriver_112\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
